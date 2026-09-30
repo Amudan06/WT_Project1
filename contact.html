@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Contact Threadloom Knits in Tiruppur to place a bulk order or ask a question.">
+  <title>Contact Us - Threadloom Knits</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <header class="site">
+    <nav class="nav" aria-label="Main">
+      <a class="brand" href="index.html">Threadloom Knits</a>
+      <button class="menu-btn" aria-expanded="false" aria-controls="menu">Menu</button>
+      <ul id="menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="products.html">Products and Services</a></li>
+        <li><a href="contact.html" aria-current="page">Contact Us</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="band">
+      <div class="wrap two">
+        <div>
+          <h1>Contact us</h1>
+          <p>To place an order or ask a question, call or email us, or use the enquiry form.</p>
+          <div class="tbl-wrap">
+            <table class="info">
+              <tbody>
+                <tr>
+                  <th>Company</th>
+                  <td>Threadloom Knits Pvt. Ltd.</td>
+                </tr>
+                <tr>
+                  <th>Address</th>
+                  <td>Plot 47, Knitwear Industrial Estate, Tiruppur, Tamil Nadu - 641604</td>
+                </tr>
+                <tr>
+                  <th>Phone</th>
+                  <td><a href="tel:+914215550192">+91 421 555 0192</a></td>
+                </tr>
+                <tr>
+                  <th>Export desk</th>
+                  <td><a href="tel:+914215550197">+91 421 555 0197</a></td>
+                </tr>
+                <tr>
+                  <th>Email</th>
+                  <td><a href="mailto:orders@threadloomknits.com">orders@threadloomknits.com</a></td>
+                </tr>
+                <tr>
+                  <th>Working hours</th>
+                  <td>Monday to Saturday, 9:00 AM to 6:30 PM</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <p style="margin-top:16px">Find us on <a href="https://www.instagram.com">Instagram</a> and <a
+              href="https://www.linkedin.com">LinkedIn</a>.</p>
+        </div>
+
+        <div>
+          <h2>Enquiry form</h2>
+          <p>Fields marked * are required. We reply within one working day.</p>
+          <form id="enquiry" action="#" method="post" novalidate>
+            <label for="name">Full name *</label>
+            <input id="name" name="name" type="text" autocomplete="name" required>
+
+            <label for="company">Company name</label>
+            <input id="company" name="company" type="text" autocomplete="organization">
+
+            <label for="email">Email address *</label>
+            <input id="email" name="email" type="email" autocomplete="email" required>
+
+            <label for="phone">Phone number</label>
+            <input id="phone" name="phone" type="tel" autocomplete="tel">
+
+            <label for="product">Product</label>
+            <select id="product" name="product">
+              <option value="">Select a product</option>
+              <option value="tshirt">Basic Crew-Neck T-Shirt</option>
+              <option value="polo">Pique Polo Shirt</option>
+              <option value="hoodie">Fleece Hoodie</option>
+              <option value="uniform">Corporate Uniform Set</option>
+              <option value="kids">Kids Round-Neck Tee</option>
+              <option value="other">Other</option>
+            </select>
+
+            <label for="quantity">Order quantity</label>
+            <input id="quantity" name="quantity" type="number" min="1" placeholder="e.g. 500">
+            <p class="hint" id="estimate">Choose a product and quantity to see an estimate.</p>
+
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5"></textarea>
+
+            <p class="err" id="error" role="alert"></p>
+            <button class="btn" type="submit">Send enquiry</button>
+          </form>
+          <div class="ok" id="done" hidden>Thank you. Your enquiry is ready to send.</div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="foot">
+    <div class="wrap cols">
+      <div>
+        <p><strong>Threadloom Knits Pvt. Ltd.</strong></p>
+        <p>Plot 47, Knitwear Industrial Estate, Tiruppur, Tamil Nadu - 641604</p>
+      </div>
+      <div>
+        <p><a href="mailto:orders@threadloomknits.com">orders@threadloomknits.com</a></p>
+        <p><a href="tel:+914215550192">+91 421 555 0192</a></p>
+        <p>Mon to Sat, 9:00 AM to 6:30 PM</p>
+      </div>
+      <p>&copy; 2026 Threadloom Knits</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
